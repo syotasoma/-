@@ -65,7 +65,31 @@ footer {
   background-color: #aaa;
 }
 
-.img1 i {
+.img i {
+ width: 100%;  
+}
+
+@media screen and (max-width: 768px) {
+ .step-img1 {
+  width: 90%;
   height: 150px;
-  width: 100%;
+  padding: 50px;
+ }  
+}
+
+@media screen and (max-width: 768px) {
+ .step-img2 {
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+ }  
+}
+
+@media screen and (max-width: 768px) {
+ .step-img1 {
+  width: 90%;
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+ }  
 }
